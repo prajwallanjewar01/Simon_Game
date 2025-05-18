@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    margin: 2rem;
+    border: 10px solid black;
+    border-radius: 15%;
+}
+
+.color1{
+    background-color: #d95980;
+}
+.color2{
+    background-color: #63aac0;
+}
+.color3{
+    background-color: #f99b45;
+}
+.color4 {
+    background-color: #819ff9;
+}
