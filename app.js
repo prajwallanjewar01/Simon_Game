@@ -12,8 +12,8 @@ document.addEventListener("keypress", function () {
         console.log("Game Stated");
         started = true;
         h2.innerText = `Game Started`;
+        levelUp()
     }
-
 });
 
 function btnFlash(btn) {
