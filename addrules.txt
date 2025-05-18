@@ -1,0 +1,146 @@
+////////////////////////////  HTML CODE  ////////////////////////////
+
+  <div class="simon-game-wrapper">
+        <header>
+            <h1>Simon Game - A Memory Challenge</h1>
+        </header>
+
+        <section class="game-description">
+            <p>This project is an implementation of the classic Simon game, where players must repeat an increasingly complex sequence of colors and sounds. The objective is to test and improve memory skills while providing a fun and interactive challenge. As the game progresses, the sequence grows longer, and the pace increases, making it harder to remember the correct order.</p>
+            <p>Built with HTML, CSS, and JavaScript, this game offers a simple yet engaging experience for players of all ages. The project demonstrates concepts like event handling, DOM manipulation, and timing functions in JavaScript. It also includes basic styling with CSS for a clean and intuitive user interface.</p>
+        </section>
+
+        <section class="game-features">
+            <h2>Features:</h2>
+            <ul>
+                <li>Responsive UI with animated color sequences.</li>
+                <li>Difficulty increases as the game progresses.</li>
+                <li>Score tracking and game reset options.</li>
+                <li>Audio feedback for each sequence step.</li>
+            </ul>
+        </section>
+
+        <section class="how-to-play">
+            <h2>Steps to Play:</h2>
+            <ol>
+                <li><strong>Start the Game:</strong> When you press "Start" or click the game board, the game begins. Simon (the game) will show you a color pattern. Each color will light up one at a time, and it will make a sound too.</li>
+                <li><strong>Watch the Pattern:</strong> First, Simon will show you one color and make a sound. Pay close attention to which color lights up, and listen carefully to the sound.</li>
+                <li><strong>Repeat the Pattern:</strong> After Simon shows you the first color, it will ask you to repeat the pattern. This means you have to click on the same color that Simon just showed you. So, if Simon lit up the red button, you click the red button!</li>
+                <li><strong>Add More Colors:</strong> After you correctly repeat the first color, Simon will show you a new color. So, now you will have to remember both colors and repeat them in the same order!</li>
+                <li><strong>Keep Going!</strong> The game gets harder as you go. Every time you repeat the pattern correctly, Simon will add one more color to the sequence. Your job is to remember all of them and repeat them in the right order.</li>
+                <li><strong>Don’t Make Mistakes:</strong> If you click the wrong color, the game will stop and show you your final score (how many colors you remembered correctly). You can always try again!</li>
+                <li><strong>Winning the Game:</strong> The game doesn’t have a finish line. It keeps going until you make a mistake. The goal is to see how long you can keep repeating the pattern without making any mistakes!</li>
+            </ol>
+
+            <h3>Remember:</h3>
+            <ul>
+                <li>Watch closely.</li>
+                <li>Listen carefully.</li>
+                <li>Try to keep up as the game gets faster!</li>
+            </ul>
+
+            <p>And that’s it! It’s all about memory and paying attention. Have fun!</p>
+        </section>
+
+        <footer>
+            <p>This repository serves as both a fun game and a learning resource for web development enthusiasts.</p>
+        </footer>
+    </div>
+
+
+////////////////////////////  CSS CODE  ////////////////////////////
+
+
+
+/* Global Styles */
+
+
+.simon-game-wrapper {
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.game-description p, .game-features ul, .how-to-play ol, .how-to-play ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.game-description p, .how-to-play p {
+    margin-bottom: 20px;
+}
+
+.game-features ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.game-features li {
+    margin-bottom: 10px;
+}
+
+.how-to-play ol {
+    margin-left: 20px;
+}
+
+.how-to-play h2,
+.how-to-play h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.how-to-play ol li {
+    margin-bottom: 15px;
+}
+
+.how-to-play ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .simon-game-wrapper {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .game-description p,
+    .game-features ul,
+    .how-to-play ol,
+    .how-to-play ul {
+        font-size: 1rem;
+    }
+
+    .how-to-play h2,
+    .how-to-play h3 {
+        font-size: 1.3rem;
+    }
+
+    .how-to-play ol li {
+        font-size: 1rem;
+    }
+}

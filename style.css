@@ -1,12 +1,13 @@
-body{
+body {
     text-align: center;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
 }
-.btn{
+
+.btn {
     width: 150px;
     height: 150px;
     margin: 2rem;
@@ -14,15 +15,22 @@ body{
     border-radius: 15%;
 }
 
-.color1{
+.color1 {
     background-color: #d95980;
 }
-.color2{
+
+.color2 {
     background-color: #63aac0;
 }
-.color3{
+
+.color3 {
     background-color: #f99b45;
 }
+
 .color4 {
     background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
 }
