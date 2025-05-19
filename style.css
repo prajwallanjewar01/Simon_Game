@@ -15,22 +15,42 @@ body {
     border-radius: 15%;
 }
 
-.color1 {
+.red {
     background-color: #d95980;
+    background-color: red;
 }
 
-.color2 {
-    background-color: #63aac0;
-}
-
-.color3 {
+.yellow {
     background-color: #f99b45;
+    background-color: yellow;
 }
 
-.color4 {
+.green {
+    background-color: #63aac0;
+    background-color: green;
+}
+
+.purple {
     background-color: #819ff9;
+    background-color: purple;
 }
 
 .flash {
     background-color: white;
+    /* rotate: 2deg; */
+}
+.userflash{
+    background-color: rgb(0, 255, 0);
+}
+
+
+@media (max-width: 500px) {
+    .btn {
+        width: 100px;
+        height: 150px;
+        margin: 2.5rem;
+        border: 10px solid black;
+        border-radius: 15%;
+    }
+
 }
